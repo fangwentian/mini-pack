@@ -20,6 +20,10 @@
   },
   "homepage": "https://github.com/fangwentian/mini-pack#readme",
   "dependencies": {
+    "@babel/core": "^7.0.1",
+    "@babel/parser": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/traverse": "^7.0.0",
     "yargs": "^12.0.2"
   }
 }

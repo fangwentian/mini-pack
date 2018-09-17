@@ -1,4 +1,4 @@
 module.exports = {
-    entry: './index./js',
+    entry: './example/index.js',
     dest: './dist/index.js'
 }

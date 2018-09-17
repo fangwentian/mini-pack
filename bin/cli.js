@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 const path = require('path')
+const yargs = require('yargs')
 
 const { argv } = yargs
     .usage('Usage: xdd 或者 xdd -c xdd.config.js')
@@ -15,5 +16,5 @@ const { argv } = yargs
 const config = './xdd.config.js' || argv.config
 
 if(config) {
-    require('../lib')(path.join(process.cwd, config))
+    require('../lib')(path.join(process.cwd(), config))
 }
