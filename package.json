@@ -1,6 +1,6 @@
 {
   "name": "xdd",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -11,20 +11,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fangwentian/mini-pack.git"
+    "url": "git+https://github.com/fangwentian/xdd.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/fangwentian/mini-pack/issues"
+    "url": "https://github.com/fangwentian/xdd/issues"
   },
-  "homepage": "https://github.com/fangwentian/mini-pack#readme",
+  "homepage": "https://github.com/fangwentian/xdd#readme",
   "dependencies": {
     "@babel/core": "^7.0.1",
     "@babel/parser": "^7.0.0",
     "@babel/preset-env": "^7.0.0",
     "@babel/traverse": "^7.0.0",
-    "babel-preset-env": "^1.7.0",
     "yargs": "^12.0.2"
   }
 }
